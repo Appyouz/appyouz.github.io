@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login Form </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,maximum-scale=3, user-scalable=yes, minimal-ui">
+    <link rel="stylesheet" href="style/style.css">
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body > 
+
+   <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="index.html">KitabPana</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="index.html">Brand</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                   <!--  <li><a href="#about">About</a></li> -->
+                    <li><a href="category.html" target="_blank">Category</a></li>
+                   <!--  <li><a href="login.html" target="_blank">Account</a></li> -->
+                    <li><a href="#connect">Contact</a></li>
+                </ul>
+            </div>
+
+            
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="login-body">
+     <div class="wrapper">
+         <div class="headline">
+             <h1>Welcome. We exist to make entrepreneurship easier.</h1>
+         </div>
+         <form class="form" method="post" action="#">
+            <div class="signup">
+                <div class="form-group">
+                    <input type="text" placeholder="Full name" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <button type="submit" class="lbtn">SIGN UP</button>
+                <div class="account-exist">
+                    Already have an account? <a href="#" class="login lo" id="login">Login</a>
+                </div>
+            </div>
+            <div class="signin"> 
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <div class="forget-password">
+                    <div class="check-box">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>
+                    <a href="#">Forget password?</a>
+                </div>
+                <button type="submit" class="lbtn">LOGIN</button>
+                <div class="account-exist">
+                    Create New a account? <a href="#" class="signup" id="signup">Signup</a>
+                </div>
+            </div>
+         </form>
+     </div>
+</div>
+
+<div class="foot-container">
+    <footer class="footer">
+        <div class="footer-items-container">
+            <div class="footer-items">
+                <h3 class="footer-title">company</h3>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                    <li><a href="#">products</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-items">
+                <h3 class="footer-title">get help</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-items contact">
+                <h3 id="connect" class="footer-title">follow us</h3>
+                <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <span>Tinkune, ktm  5560 fa</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone"></i></span>
+                    <span>
+                        <span>+91845585899</span><br>
+                        <span>+91845585899</span>
+                    </span>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span>kitabPana@gmail.com</span>
+                </li>
+            </ul>
+                
+            </div>
+        </div>
+        <div class="copyright-text">
+        <p>Copyright &copy; 2021 KitabPana. All Right Reserved.</p>
+    </div>
+    </footer>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
